@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "BWB",
+        "#K#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_powder"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "B": {
+            "item": "minecraft:book"
+        },
+        "W": {
+            "item": "minecraft:writable_book"
+        },
+        "K": {
+            "item": "knowledgebooks:enchantment_shard"
+        }
+    },
+    "result": {
+        "item": "knowledgebooks:book_of_knowledge",
+        "count": 1
+    }
+}

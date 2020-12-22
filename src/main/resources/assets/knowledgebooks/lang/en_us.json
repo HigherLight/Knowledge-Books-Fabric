@@ -1,3 +1,4 @@
 {
-  "item.knowledgebooks.book_of_knowledge": "Book of Knowledge"
+  "item.knowledgebooks.book_of_knowledge": "Book of Knowledge",
+  "item.tutorial.fabric_item.tooltip": "Gain knowledge from this book..."
 }
