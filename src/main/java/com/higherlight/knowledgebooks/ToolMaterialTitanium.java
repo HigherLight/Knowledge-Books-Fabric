@@ -1,5 +1,6 @@
 package com.higherlight.knowledgebooks;
 
+import com.higherlight.knowledgebooks.registry.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -31,6 +32,6 @@ public class ToolMaterialTitanium implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems();
+        return Ingredient.ofItems(ModItems.TITANIUM);
     }
 }
