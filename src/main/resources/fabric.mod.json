@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "knowledgebooks",
+  "version": "1.16.4-0.1.0",
+
+  "name": "Knowledge Books",
+  "description": "A mod expanding the idea of Enchanting. Enchanting tables, anvils etc. This mod replaces some features, including replacing the anvil and enchanting table with a new expandable block. What that block is, is yet to be confirmed.",
+  "authors": [
+    "HigherLevel (HigherLight)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/HigherLightStudio/knowledgebooks"
+  },
+
+  "license": "gpl-3.0",
+  "icon": "assets/knowledgebooks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.higherlight.knowledgebooks.KnowledgeBooks"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
